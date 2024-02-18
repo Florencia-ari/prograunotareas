@@ -1,0 +1,15 @@
+Algoritmo eje4_17
+	Definir numero Como Entero;
+	Definir mayor Como Entero;
+	Definir contador Como Entero;
+	contador <- 0;
+	Mientras contador<10 Hacer
+		Escribir 'Ingrese un numero: ';
+		Leer numero;
+		Si numero>mayor Entonces
+			mayor <- numero;
+		FinSi
+		contador <- contador+1;
+	FinMientras
+	Escribir 'El numero mayor es: ',mayor;
+FinAlgoritmo

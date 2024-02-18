@@ -1,0 +1,13 @@
+Algoritmo eje4_13
+	Definir kilometros Como Real;
+	Definir litros Como Real;
+	Definir total Como Real;
+	Mientras  NO (kilometros)=(-1) Hacer
+		Escribir 'Escriba los kilometros usados (-1 para salir): ';
+		Leer kilometros;
+		Escribir 'Escriba los litros usados: ';
+		Leer litros;
+		total <- kilometros/litros;
+		Escribir 'Total KPL: ',total;
+	FinMientras
+FinAlgoritmo

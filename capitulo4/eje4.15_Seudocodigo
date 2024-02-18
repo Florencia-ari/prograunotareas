@@ -1,0 +1,10 @@
+Algoritmo eje4_15
+	Definir ventas Como Real;
+	Definir pago Como Real;
+	Mientras  NO (ventas)=(-1) Hacer
+		Escribir 'Introduzca las ventas en dolares (-1 para salir): ';
+		Leer ventas;
+		pago <- 200+(ventas*0.09);
+		Escribir 'El salario es: $',pago;
+	FinMientras
+FinAlgoritmo
