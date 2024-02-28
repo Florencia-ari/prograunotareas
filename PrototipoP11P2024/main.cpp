@@ -22,9 +22,6 @@ void generarVotosAleatorios3(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS]);
 void imprimirResultados3(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS], string candidatos[]);
 void calcularGanador3(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS], string candidatos[]);
 
-void llamaCiclo();
-
-
 
 int main()
 {
@@ -55,9 +52,6 @@ int main()
         generarVotosAleatorios3(votos);
         imprimirResultados3(votos, candidatos);
         calcularGanador3(votos, candidatos);
-
-        llamaCiclo();
-
 
 
         cout << "¿Desea realizarlo de nuevo? (si/no): ";
