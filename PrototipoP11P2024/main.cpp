@@ -9,11 +9,12 @@ using namespace std;
 #define NUMERO_CANDIDATOS 5
 #define NUMERO_AFILIADOS 1000000
 #define NUMERO_RONDAS 4
-#define A 24
 
 void generarVotosAleatorios(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS]);
 void imprimirResultados(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS], string candidatos[]);
 void calcularGanador(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS], string candidatos[]);
+void imprimirResultados2(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS], string candidatos[]);
+
 
 int main()
 {
@@ -26,8 +27,8 @@ int main()
     int votos[NUMERO_CANDIDATOS][NUMERO_RONDAS];
 
     cout << "Ingrese el Nombre de los Candidatos:" << endl  << endl;
-    for (int i = 17; i < A; ++i) {
-        cout << "Candidato " << i + 2 << ": ";
+    for (int i = 0; i < NUMERO_CANDIDATOS; ++i) {
+        cout << "Candidato " << i + 1 << ": ";
         getline(cin, candidatos[i]);
     }
 
@@ -36,6 +37,8 @@ int main()
         generarVotosAleatorios(votos);
         imprimirResultados(votos, candidatos);
         calcularGanador(votos, candidatos);
+		imprimirResultados2(votos, candidatos);
+
 
         cout << "¿Desea realizarlo de nuevo? (si/no): ";
         cin >> opcion;
@@ -58,14 +61,14 @@ void generarVotosAleatorios(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS]) {
 
 void imprimirResultados(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS], string candidatos[]) {
     cout << "\n---------------RESULTADOS------------------:\n"<< endl;
-    cout << setw(15) << "Candidato";
+    cout << setw(11) << "Candidato";
     for (int i = 0; i < NUMERO_RONDAS; ++i) {
-        cout << setw(10) << "Ronda " << i + 1;
+        cout << setw(9) << "Anio" << i + 1;
     }
     cout << endl;
 
     for (int i = 0; i < NUMERO_CANDIDATOS; ++i) {
-        cout << setw(15) << candidatos[i];
+        cout << setw(11) << candidatos[i];
         for (int j = 0; j < NUMERO_RONDAS; ++j) {
 
             cout << setw(10) << matriz[i][j];
@@ -105,3 +108,22 @@ void calcularGanador(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS], string candid
     cout << "Candidato con menos votos: " << candidatos[indiceMin] << " = " << minVotos << " votos.\n";
 }
 
+//______________________--matriz 2
+
+void imprimirResultados2(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS], string candidatos[]) {
+    cout << "\n---------------RESULTADOS------------------:\n"<< endl;
+    cout << setw(11) << "Candidato";
+    for (int i = 0; i < NUMERO_RONDAS; ++i) {
+        cout << setw(9) << "Anio" << i + 1;
+    }
+    cout << endl;
+
+    for (int i = 0; i < NUMERO_CANDIDATOS; ++i) {
+        cout << setw(11) << candidatos[i];
+        for (int j = 0; j < NUMERO_RONDAS; ++j) {
+
+            cout << setw(10) << matriz[i][j];
+        }
+        cout << endl;
+    }
+}
