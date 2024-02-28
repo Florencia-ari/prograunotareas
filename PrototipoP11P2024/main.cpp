@@ -22,6 +22,9 @@ void generarVotosAleatorios3(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS]);
 void imprimirResultados3(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS], string candidatos[]);
 void calcularGanador3(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS], string candidatos[]);
 
+void llamaCiclo();
+
+
 
 int main()
 {
@@ -44,8 +47,17 @@ int main()
         generarVotosAleatorios(votos);
         imprimirResultados(votos, candidatos);
         calcularGanador(votos, candidatos);
-		imprimirResultados2(votos, candidatos);
-		imprimirResultados3(votos, candidatos);
+
+        generarVotosAleatorios2(votos);
+        imprimirResultados2(votos, candidatos);
+        calcularGanador2(votos, candidatos);
+
+        generarVotosAleatorios3(votos);
+        imprimirResultados3(votos, candidatos);
+        calcularGanador3(votos, candidatos);
+
+        llamaCiclo();
+
 
 
         cout << "¿Desea realizarlo de nuevo? (si/no): ";
@@ -233,7 +245,6 @@ void calcularGanador3(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS], string candi
     }
 
     cout << "\nCandidato ganador: " << candidatos[indiceMax] << " = " << maxVotos << " votos.\n";
-    cout << "Candidato con menos votos: " << candidatos[indiceMin] << " = " << minVotos << " votos.\n";
-}
-
+    cout << "Candidato con menos votos: " << candidatos[indiceMin] << " = " << minVotos << " votos.\n" <<endl ;
+    }
 
