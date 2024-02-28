@@ -1,0 +1,77 @@
+commit 51a72047fd7f24e8c075dfcd49b08e631fe6f316
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Wed Feb 28 10:27:12 2024 -0600
+
+    parcial
+
+commit 574cb91c2374557d605ee31faac74520755cb4a2
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Wed Feb 28 10:25:02 2024 -0600
+
+    parcial
+
+commit efa6215eeceb8438db53a50fd9b235c9754cb1c7
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Wed Feb 28 10:09:18 2024 -0600
+
+    parcial
+
+commit 6ec570385d196afe2cfdbff62392989c2b50ff27
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Wed Feb 28 10:02:39 2024 -0600
+
+    parcial
+
+commit 8ad8ecd04ec0761d780f3bc1ed0ff321985ab451
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Wed Feb 28 09:50:33 2024 -0600
+
+    parcial
+
+commit 423153d4c6fd80858b081c4b8b791701daed2c9d
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Wed Feb 28 09:46:05 2024 -0600
+
+    parcial
+
+commit f18dc2018056a951ac6d86ddbf3e343ae5f9b632
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Sun Feb 25 21:44:32 2024 -0600
+
+    Tarea en grupo del Modulo 1
+
+commit f8629e1d50357a1188930b0bfc6af1f870f70577
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Wed Feb 21 10:26:10 2024 -0600
+
+    Lab 1
+
+commit 59342b388741d180352dafb62a564a2c3097f94d
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Sat Feb 17 23:28:36 2024 -0600
+
+    Capitulo 4- Ejercicios impares
+
+commit 2154fcd3f3ed61f3e26282084b939bd416f8f7a0
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Mon Feb 12 11:25:31 2024 -0600
+
+    Programas del Capitulo 2
+
+commit bd0acdb2588ac2c907bfd88bd3528170007b18af
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Sun Feb 4 22:24:44 2024 -0600
+
+    Laboratorio PSeint
+
+commit 2ab07d74cab41d6084eee4e915431f9a8e3791fc
+Author: Florencia Ariaga <mariagac@miumg.edu.gt>
+Date:   Sun Feb 4 19:07:08 2024 -0600
+
+    Laboratorio PSeint
+
+commit 515361bd571346e339defc11dfececd738339dd5
+Author: Florencia-ari <157136805+Florencia-ari@users.noreply.github.com>
+Date:   Wed Jan 31 08:34:16 2024 -0600
+
+    Initial commit
