@@ -9,6 +9,7 @@ using namespace std;
 #define NUMERO_CANDIDATOS 5
 #define NUMERO_AFILIADOS 1000000
 #define NUMERO_RONDAS 4
+#define A 24
 
 void generarVotosAleatorios(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS]);
 void imprimirResultados(int matriz[NUMERO_CANDIDATOS][NUMERO_RONDAS], string candidatos[]);
@@ -25,8 +26,8 @@ int main()
     int votos[NUMERO_CANDIDATOS][NUMERO_RONDAS];
 
     cout << "Ingrese el Nombre de los Candidatos:" << endl  << endl;
-    for (int i = 0; i < NUMERO_CANDIDATOS; ++i) {
-        cout << "Candidato " << i + 1 << ": ";
+    for (int i = 17; i < A; ++i) {
+        cout << "Candidato " << i + 2 << ": ";
         getline(cin, candidatos[i]);
     }
 
