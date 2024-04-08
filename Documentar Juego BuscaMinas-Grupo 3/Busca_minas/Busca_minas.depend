@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1712530624 source:d:\p-c++\busca_minas\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+
+1712536358 d:\p-c++\busca_minas\include\juego.h
+	"Tablero.h"
+
+1712538996 d:\p-c++\busca_minas\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1712530692 d:\p-c++\busca_minas\include\celda.h
+
+1712536110 d:\p-c++\busca_minas\include\config.h
+
+1712535970 source:d:\p-c++\busca_minas\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1712536193 source:d:\p-c++\busca_minas\src\config.cpp
+	<iostream>
+	<unistd.h>
+	"Config.h"
+
+1712536319 source:d:\p-c++\busca_minas\src\juego.cpp
+	"Juego.h"
+	<fstream>
+	<unistd.h>
+
+1712538810 source:d:\p-c++\busca_minas\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
