@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1712625238 source:d:\p-c++\laboratorio bibliotecas\src\facultad.cpp
+	"facultad.h"
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<cstring>
+	<unistd.h>
+
+1712625238 d:\p-c++\laboratorio bibliotecas\include\facultad.h
+	<string>
+
+1712624799 source:d:\p-c++\laboratorio bibliotecas\main.cpp
+	"facultad.h"
+	<cstdlib>
+	<ctime>
+
